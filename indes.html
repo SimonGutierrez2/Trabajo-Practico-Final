@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanatorio Argentino</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+   <h1>Sanatorio Argentino</h1>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#SobreNosotros">SobreNosotros<a>
+        <a href="#doctores">doctores</a>
+        <a href="#contacto">Contacto</a>
+            
+      </nav>
+  </header> 
+ <section>
+  <div class="inicio">
+    <h2>Bienvenidos</h2>
+      <p>Aqui tiene el mapa donde queda la ubicacion:</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27235.53253696358!2d-62.08063616931153!3d-31.42950847573816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cb281eb4414ffd%3A0xd7a36b5bed7e27c4!2sIturraspe%201321%2C%20X2400%20San%20Francisco%2C%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1701380994505!5m2!1ses-419!2sus" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </section>
+       
+  <section class="SobreNosotros">
+    <h2>Sobre Nosotros</h2>
+     <p>El 13 de agosto de 1960 nacía, en la ciudad de San Francisco, Sanatorio Argentino, “El Argentino”. Hoy, 53 años después, aquel proyecto liderado por sus precursores, los Dres. Alfonso C. Fassi y Eladio P. Casermeiro, constituye un referente regional indiscutible en materia de Salud, y celebra este importante aniversario de la mejor forma posible, resignificándose y ofreciendo el más alto standard profesional, tecnológico y asistencial.
+  
+      Los actuales médicos-socios de Sanatorio Argentino -algunos de ellos descendientes directos de los fundadores de la entidad- son Daniel Casermeiro, Ginecólogo; Federico Casermeiro, Cirujano Plástico y Rubén Fassi, Médico de Familia. Profesionales altamente especializados y formadores de cualificados equipos interdisciplinarios que, sumado a una importante inversión en tecnología de última generación y a la atención humana y personalizada que lo caracteriza, hacen de Sanatorio Argentino un paradigma en asistencia médico-sanitaria.
+            
+      Orientada a optimizar la calidad prestacional, la incorporación de profesionales especialistas y tecnología de última generación en Radiología Digital de Alta Definición, salas de alta complejidad y nueva tecnología en otras áreas.
+            
+      Bajo el lema “en cualquier lugar del mundo se puede realizar buena medicina, si se sabe y se quiere hacerlo”, Sanatorio Argentino –”El Argentino”- apuesta a la alta especialización y la calidad del servicio al paciente. La incorporación de Radiografía Digital de Alta Definición brinda alta calidad radiográfica en imágenes que pueden ser captadas en quirófano y en tiempo real, intensificadas por un aparato de arco en C, y ser visualizadas on-line por el profesional a través de una conexión a Internet, en su consultorio o cualquier otro lugar.:</p>
+          
+  </section>
+
+  <section class="doctores">
+    <h2 id="title">Servicios </h2>
+    <p>los distintos servicos que ofrece este hospital</p>
+    <select class="form-control" name="id_categoria" id="id_categoria" onchange="submit()">  
+     <option value="0" selected="selected">Seleccione una opción</option>
+     <option value="41">Alergia e Inmunologia</option>
+     <option value="5" selected="selected">Alergia e inmunologia Pediatrica</option>
+     <option>Anatomía Patológica</option>
+     <option>Anestesiología</option>
+     <option>Cabeza y Cuello</option>
+     <option>Cardiología</option>
+     <option>Cirugía  Plástica, Reconstructiva y Reparadora</option>
+     <option>Cirugía Bariátrica  </option>
+     <option>Cirugía de Tórax</option>
+     <option>Cirugía General- Laparascopica- Oncologica</option>
+     <option>Cirugía Pediátrica</option>
+     <option>Clínica General</option>
+     <option>Dermatología</option>
+     <option>Diagnóstico por Imagen</option>
+     <option>Endocrinología</option>
+     <option>Fertilidad</option>
+     <option>Flebología</option>
+     <option>Fonoaudiología</option>
+     <option>Gastroenterología y Endoscopia</option>
+     <option>Ginecología y Obstetricia</option>
+     <option>Hematologia</option>
+     <option>Hemoterapia</option>
+     <option>Infectología</option>
+     <option>Kinesiología - Fisioterapia</option>
+     <option>Laboratorio Bacteriológico</option>
+     <option>Laboratorio Clínico</option>
+     <option>Medicina Laboral</option>
+     <option>Neumonologia</option>
+     <option>Neurocirugía</option>
+     <option>Neurología</option>
+     <option>Nutricionista</option>
+     <option>Odontología</option>
+     <option>Oftalmología</option>
+     <option>Oncologia</option>
+     <option>Otorrinolaringología</option>
+     <option>Pediatría</option>
+     <option>Psicología</option>
+     <option>Reumatología</option>
+     <option>Terapia Intensiva</option>
+     <option>Traumatología</option>
+     <option >Urología</option>
+  </select>
+     
+  <section class="contacto">
+    <h2>Contactanos </h2>
+    <p>aqui puede pedir un turno, o tambien llamando al  +54 (3564) 423777</p>
+    
+          
+    <div class=header>
+    <h2>Sanatorio Argentino San Francisco Cordoba</h2>
+    </section>
+   <div class="turno">
+     <h2> Solicita un Turno 
+      <p>Te ofrecemos toda la información para que puedas realizar tus trámites a través de nuestros canales de atención no presenciales, o con turno previo para concurrir a nuestras oficinas.</p></h2>
+    
+     <form action="">
+       <label for="">Nombre:</label>
+       <input type="text" id="nombre">
+       <br><br>
+       <label for="">Apellido:</label>
+       <input type="text" id="apellido">
+       <br><br>
+       <label for="">Edad:</label>
+       <input type="text" id="edad">
+       <br><br>
+       <label for="">DNI:</label>
+       <input type="text" id="DNI">
+       <br><br>
+       <label for="">Turno:</label>
+       <input type="date" id="date" value="28-08-2023" />
+       <br><br>
+       <label for="">obra social:</label>
+       <input type="text" id="obrsoc">
+       <br><br>
+       <button type="button" onclick="subir()">subir</button>
+     </form>
+  </section>
+  <h2>tabla de turnos asignados:</h2>
+  <table class="tabla">
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Edad</th>
+      <th>DNI</th>
+      <th>Dia del Turno</th>
+      <th>obra social</th>
+    </tr>
+    <tbody id="tbody">
+   </tbody>
+  </table>
+  <script src="js.js"></script>
+</body>
+</html>
